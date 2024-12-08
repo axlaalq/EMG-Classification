@@ -1,2 +1,5 @@
 # EMG-Classification
-Developed a convolutional neural network (CNN) from scratch to classify electromyographic (EMG) signals from a diverse dataset of hand movements, optimizing the model's accuracy using gradient descent, backpropagation, and Gaussian process regression for hyperparameter tuning.
+
+For my thesis project, I developed a convolutional neural network (CNN) from scratch using libraries like Keras, Pandas, NumPy, Pillow, and Matplotlib. The goal was to classify electromyographic (EMG) signals collected from a large dataset of individuals of varying ages and genders performing 10 distinct hand movements. Each participant began in an initial position, transitioned to a secondary position, and returned to the first position within a 15-second timeframe. Electrodes placed on their arms recorded 3200 data points per experiment.
+
+The model was trained to classify these EMG signals into their corresponding movements, utilizing gradient descent, backpropagation, and the Adam optimizer. Additionally, I employed Gaussian process regression to fine-tune the hyperparameters, enhancing the network's performance and achieving reliable classification results. This project demonstrates the integration of deep learning techniques to analyze complex bio-signals effectively.
